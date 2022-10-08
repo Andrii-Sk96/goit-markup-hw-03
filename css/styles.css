@@ -55,6 +55,8 @@ body {
 }
 
 .list {
+  padding: 0;
+  margin: 0;
   list-style: none;
   font-weight: 400;
   font-size: 14px;
@@ -90,16 +92,19 @@ body {
 }
 
 .hero {
+  text-align: center;
   background-color: var(--footer-background-color);
 }
 
 .hero-title {
+  margin-top: 0;
+  margin-bottom: 0;
   text-align: center;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-transform: uppercase;
-
+  margin-top: 200px;
   color: var(--primery-white-color);
 }
 
@@ -208,6 +213,8 @@ address {
 }
 
 .button-primary {
+  padding: 10px 32px;
+  margin-top: 30px;
   font-family: roboto, sans-serif;
   font-weight: 700;
   font-size: 16px;
@@ -239,12 +246,14 @@ address {
   font-size: 16px;
   line-height: 1.6;
 
-  width: 125px;
+  min-width: 73px;
   height: 38px;
   left: 593px;
   top: 174px;
   border-radius: 4px;
-
+  text-align: center;
+  padding: 6px 22px;
+  border: 0px;
   color: var(--title-text-color);
   background-color: var(--primary-bg-color);
 }
@@ -256,3 +265,16 @@ address {
 }
 
 /*outline: 2px solid tomato*/
+
+/*розміщення контейнерів*/
+
+.container-logo {
+  display: inline-block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/*портфоліо*/
