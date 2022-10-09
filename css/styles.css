@@ -42,10 +42,14 @@ body {
 }
 
 .li-color {
+  padding: 0px 0px 108px 0px;
   background-color: var(--primery-white-color);
 }
 
 .team-list {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
   list-style: none;
   font-weight: 400;
   font-size: 16px;
@@ -65,6 +69,9 @@ body {
   color: var(--primary-text-color);
 }
 
+.footer-background .list {
+  margin-top: 20px;
+}
 .portfolio-list {
   list-style: none;
   font-weight: 400;
@@ -128,6 +135,11 @@ body {
 .link {
 }
 
+.title {
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
 .site-nav .link {
   text-decoration: none;
   font-weight: 500;
@@ -145,16 +157,23 @@ body {
   color: var(--accent-color);
 }
 
+.section-studio p {
+  margin-bottom: 0px;
+}
+
 .section-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
   text-transform: uppercase;
-
+  margin-top: 0px;
+  margin-bottom: 24px;
   color: var(--title-text-color);
 }
 
 .team-title {
+  margin-top: 30px;
+  margin-bottom: 0px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -277,4 +296,16 @@ address {
   padding-right: 15px;
 }
 
-/*портфоліо*/
+.section-studio {
+  margin-top: 94px;
+}
+
+.section-team p {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.footer-styles {
+  padding-top: 60px;
+}
+/*портфоліо*/ ;
