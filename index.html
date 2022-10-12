@@ -18,29 +18,35 @@
 
   <body>
     <header>
-      <nav class="container-logo">
-        <a href="./index.html" class="logo">
-          <span class="logo-link">Web</span>Studio
-        </a>
-        <ul class="list site-nav">
-          <li><a href="./index.html" class="link current">Студія</a></li>
-          <li><a href="./portfolio.html" class="link">Портфоліо </a></li>
-          <li><a href="#" class="link">Контакти </a></li>
-        </ul>
-      </nav>
+      <div class="container-space">
+        <nav class="container-logo main-nav">
+          <a href="./index.html" class="logo">
+            <span class="logo-link">Web</span>Studio
+          </a>
+          <ul class="list site-nav">
+            <li class="item">
+              <a href="./index.html" class="link current">Студія</a>
+            </li>
+            <li class="item">
+              <a href="./portfolio.html" class="link">Портфоліо </a>
+            </li>
+            <li class="item"><a href="#" class="link">Контакти </a></li>
+          </ul>
+        </nav>
 
-      <ul class="list site-nav">
-        <li>
-          <a href="mailto:info@devstudio.com" class="site-contacts"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a href="tel:+380961111111" class="site-contacts"
-            >+38 096 111 11 11</a
-          >
-        </li>
-      </ul>
+        <ul class="list site-nav">
+          <li class="item">
+            <a href="mailto:info@devstudio.com" class="site-contacts"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="item">
+            <a href="tel:+380961111111" class="site-contacts"
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
     </header>
 
     <main>
@@ -52,30 +58,30 @@
         <button type="button" class="button-primary">Замовити послугу</button>
       </section>
 
-      <section>
+      <section class="features">
         <div class="section-studio">
           <ul class="list">
-            <li>
+            <li class="list-features">
               <h3 class="section-title">увага до деталей</h3>
               <p>
                 Ідейні міркування, і навіть початок повсякденної роботи з
                 формування позиції.
               </p>
             </li>
-            <li>
+            <li class="list-features">
               <h3 class="section-title">пунктуальність</h3>
               <p>
                 Завдання організації, особливо рамки і місце навчання кадрів
                 тягне у себе.
               </p>
             </li>
-            <li>
+            <li class="list-features">
               <h3 class="section-title">планування</h3>
               <p>
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
-            <li>
+            <li class="list-features">
               <h3 class="section-title">сучасні технології</h3>
               <p>
                 Значимість цих проблем настільки очевидна, що реалізація
@@ -167,11 +173,13 @@
 
     <footer class="footer-background">
       <div class="footer-styles">
-        <a href="./index.html" class="footer-logo">
-          <span class="logo-link">Web</span>Studio
-        </a>
+        <div>
+          <a href="./index.html" class="footer-logo">
+            <span class="logo-link">Web</span>Studio
+          </a>
+        </div>
         <address>
-          <ul class="list">
+          <ul class="list-footer">
             <li>
               <a
                 href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
