@@ -79,8 +79,9 @@ body {
 
 .li-color {
   width: 270px;
+  height: 368px;
+  margin-bottom: 94px;
   padding: 0px 0px 108px 0px;
-
   background-color: var(--primery-white-color);
 }
 
@@ -113,6 +114,10 @@ body {
 }
 
 .title {
+  margin-top: 0px;
+  margin-bottom: 50px;
+  padding-top: 94px;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -139,10 +144,13 @@ body {
   color: var(--primery-white-color);
 }
 
-section {
+.footer-li {
+  margin-top: 9px;
 }
 
 .section-team {
+  margin-top: 0px;
+  padding-top: 0px;
   background-color: var(--primary-bg-color);
 }
 
@@ -163,11 +171,6 @@ section {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
-}
-
-.title {
-  margin-top: 0px;
-  margin-bottom: 50px;
 }
 
 .site-nav .link {
@@ -359,8 +362,26 @@ address {
   flex-direction: column;
 }
 
-.features {
+.feature-list {
+  margin-top: 94px;
   margin-bottom: 94px;
+}
+
+.title-feature {
+  margin-top: 0px;
+  margin-bottom: 50px;
+  padding-top: 0px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+
+  color: var(--title-text-color);
+}
+
+.features {
+  margin-bottom: 0px;
 }
 
 .list-features {
@@ -369,8 +390,6 @@ address {
 
 .list .list-features + .list-features {
   margin-left: 30px;
-}
-.container-logo .item {
 }
 
 .container-logo .item + .item {
@@ -396,6 +415,7 @@ address {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+  padding-bottom: 94px;
   margin-left: auto;
   margin-right: auto;
 }
