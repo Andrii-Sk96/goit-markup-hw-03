@@ -78,14 +78,23 @@ body {
 }
 
 .li-color {
+  width: 270px;
   padding: 0px 0px 108px 0px;
+
   background-color: var(--primery-white-color);
+}
+
+.team-list .li-color + .li-color {
+  margin-left: 30px;
 }
 
 .team-list {
   margin-top: 0px;
   margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0px;
+  display: flex;
 
   list-style: none;
   font-weight: 400;
@@ -198,6 +207,7 @@ section {
 .team-title {
   margin-top: 30px;
   margin-bottom: 0px;
+  text-align: center;
 
   font-weight: 500;
   font-size: 16px;
@@ -205,6 +215,11 @@ section {
 
   color: var(--title-text-color);
 }
+
+.team-list p {
+  text-align: center;
+}
+
 /*footer*/
 address {
   font-style: normal;
@@ -344,6 +359,10 @@ address {
   flex-direction: column;
 }
 
+.features {
+  margin-bottom: 94px;
+}
+
 .list-features {
   width: 270px;
 }
@@ -462,4 +481,32 @@ address {
   line-height: 1.71;
 
   color: var(--primary-text-color);
+}
+
+.feature-img {
+  display: flex;
+
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hobby-list {
+  margin-left: 0px;
+
+  width: 370px;
+  height: 294px;
+}
+
+.list .hobby-list + .hobby-list {
+  margin-left: 30px;
+}
+
+.team-img {
+  width: 1200;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
 }
