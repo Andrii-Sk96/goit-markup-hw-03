@@ -473,7 +473,7 @@ header {
   margin-bottom: 30px;
 }
 
-.portfolio-item:nth-child(n + 3) {
+.portfolio-item:nth-child(n + 6) {
   margin-bottom: 0;
 }
 .portfolio-title {
